@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+.navbar-nav a{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.caurosel-area{
+    margin: 5% 0;
+    background-image: url(/images/bg-2.png);
+    background-size: 8%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.caurosel-area .carousel-item h2{
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-buy-now{
+
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-buy-now a{
+    text-decoration: none;
+    
+    color: #fff;
+}
+
+.card-footer{
+    background:none !important;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.smartphones{
+    margin-bottom: 2%;
+}
+
+.cat-title{
+    text-transform: capitalize;
+    padding:2% 0;
+}
+
+.card-title{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+
+.cat-img{
+    padding :20px 5px;
+    border-radius: 2px 30px;
+    box-shadow: 0 6px 10px  #6D6D6D;
+}
+
+
+.cat-img a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: poppins;
+}
+.cat-img a h4{
+    text-transform: capitalize;
+    padding: 2% 0;
+    margin: 5px 0;
+}
+
+.categories{
+    margin: 2% 0;
+}
